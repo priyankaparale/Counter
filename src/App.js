@@ -10,8 +10,12 @@ function App() {
   }
 
   function decrement(){
-    if()
-    setValue(value-1)
+    if(value < 1){
+      setValue(0)
+    }else{
+      setValue(value-1)
+    }
+    
   }
 
   function reset(){
